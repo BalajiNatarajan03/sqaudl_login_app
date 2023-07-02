@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601689548562",
+    "project_id": "squadl-c06f6",
+    "storage_bucket": "squadl-c06f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601689548562:android:9f8479d3f16e73521f75cb",
+        "android_client_info": {
+          "package_name": "com.example.sqaudl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601689548562-i3qpdtjdq2k86kdr7f3s9s1aubajlkm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8HeCeSEO1A72UIk7M8uynaF3JxzICTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601689548562-i3qpdtjdq2k86kdr7f3s9s1aubajlkm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

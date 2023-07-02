@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:background="@drawable/back">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:id="@+id/appbarDetails"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:title="Details"
+        android:background="@color/grey"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:id="@+id/detailClgName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbarDetails"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="name"/>
+
+    <TextView
+        android:id="@+id/detailClgState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailClgName"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="state"/>
+
+    <TextView
+        android:id="@+id/detailClgCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailClgState"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="country"/>
+
+    <TextView
+        android:id="@+id/detailClgDomains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailClgCountry"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="domains"/>
+
+    <TextView
+        android:id="@+id/detailClgWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailClgDomains"
+        android:layout_margin="15dp"
+        android:textSize="25sp"
+        android:text="web"/>
+
+
+</RelativeLayout>
